@@ -1,0 +1,19 @@
+{
+  "name": "medjool-farm",
+  "version": "2.0.0",
+  "description": "نظام إدارة مزرعة نخيل التمر",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.medjool.farm",
+    "productName": "Medjool FMS",
+    "win": { "target": "nsis" }
+  }
+}
