@@ -430,3 +430,5 @@ PAGES.palm.render=function(){
 };
 
 render();
+
+render();
